@@ -79,11 +79,13 @@
 }
 
 .menu-branding .portrait {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     background: url("/img/IMG.JPG");
+    background-repeat: no-repeat;
+    object-fit: cover;
     background-size: cover;
-    background-size: 90% 100%;
+    background-size: 100% 100%;
     border-radius: 50%;
     border: solid 3px #eece1a;
 }
@@ -236,8 +238,9 @@ main#home h1 {
 .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
-    border-radius: 50%;
+    border-radius: 20%;
     border: #eece1a 3px solid;
+    width: 50%;
 }
 
 .about-info .bio {
